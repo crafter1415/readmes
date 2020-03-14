@@ -1,31 +1,31 @@
-# TUSB �I�t���C���o���l�p�b�` v2  
+# TUSB オフライン経験値パッチ v2  
 
-TUSB v12�ŉ����̃v���C���[/�I�t���C���̃v���C���[�ɂ��o���l������悤�ɂ���p�b�`�ł�
+TUSB v12で遠くのプレイヤー/オフラインのプレイヤーにも経験値が入るようにするパッチです
 
-### �g�p���@
+### 使用方法
 
-�ȉ��̃y�[�W�ɂ���R�}���h���R�s�[���A  
-�R�}���h�u���b�N������s���Ă��������B  
+以下のページにあるコマンドをコピーし、  
+コマンドブロックから実行してください。  
 
 https://pastebin.com/hqfdV4KG
 
-### �J�X�^���{��
+### カスタム倍率
 
-�{�p�b�`�ł́A�ȉ��̃v���C���[��ExpMulti�X�R�A�𒲐����邱�ƂŌo���l�̔{�����w��ł��܂�:  
+本パッチでは、以下のプレイヤーのExpMultiスコアを調整することで経験値の倍率を指定できます:  
  - #NormalPlayer
  - #FarPlayer
  - #OfflinePlayer
- - #Default
-�{����#Default��1�Ƃ����Ƃ��̂��ꂼ��̔{���Ōv�Z����܂��B
-�f�t�H���g�ݒ肾�Ɣ��a50m�ȓ��ɂ����100%�A  
-�����ꍇ50%�A�I�t���C���̏ꍇ25%�̌o���l������܂��B  
+ - #Default  
+倍率は#Defaultを1としたときのそれぞれの倍率で計算されます。  
+デフォルト設定だと半径50m以内にいれば100%、  
+遠い場合50%、オフラインの場合25%の経験値が入ります。
 
-### �X�y�V�����T���N�X
+### スペシャルサンクス
 
-�f�o�b�O����: tomosan142
+デバッグ協力: tomosan142
 
-### ��肪�������ꍇ
+### 問題があった場合
 
-Discord��Twitter��DM�܂ł��肢���܂��B  
-Discord: mkm75#1764
+DiscordかTwitterのDMまでお願いします。  
+Discord: mkm75#1764  
 Twitter: @crafter1415
